@@ -1,4 +1,5 @@
 # Week 2 Lab Report
+## *Remote Access*
 ### Installing VSCode
 > insert steps
 ![Image](Screen Shot 2022-01-13 at 1.48.45 PM.png)
@@ -8,7 +9,7 @@
 ### Trying Some Commands
 > insert steps
 ![Image](Screen Shot 2022-01-13 at 1.48.45 PM.png)
-### Moving Files with scp
+### Moving Files with ==scp==
 > insert steps
 ![Image](Screen Shot 2022-01-13 at 1.48.45 PM.png)
 ### Setting an SSH Key
