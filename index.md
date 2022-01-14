@@ -8,10 +8,11 @@
 > To remotely connect, I first grabbed my CSE15L account. In the terminal I then entered `ssh cs15lwi22aso@ieng6.ucsd.edu`. I was then prompted to enter my password for the account (the password will not actively show up as you type it). Upon successfully doing so, the following message is printed out.
 ![Image](Remotely Connecting.png)
 ### Trying Some Commands
-> insert steps
+> I then tried out some commands on both the client and the server as seen in the screenshots below. For example, I learned that `ls` lists out files and directories, `cd` changes directories, `pwd` lists the current directory you are working in, and so on.
 ![Image](Command.png)
+![Image](Commands.png)
 ### Moving Files with *scp*
-> insert steps
+> In the following screenshot I used `scp` to copy over a file called WhereAmI.java to the server. In order to check that it was copied over successfully I used `ssh` to gain access to the server then once in, I used the `ls` command to confirm that WhereAmI.java was copied over.
 ![Image](scp.png)
 ### Setting an SSH Key
 > To create an SSH Key, especially for efficiency purposes, I first typed in 'ssh-keygen' then followed the guidance in the terminal on creating a saving the key. I then logged onto my account on the server using `ssh cs15lwi22aso@ieng6.ucsd.edu` then `mkdir .ssh` to create a new directory. After that I used the `scp` command to copy the public key to that new directory and the screenshot below shows me logging into the server without having to type in my password.
