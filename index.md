@@ -1,4 +1,5 @@
-# Week 2 Lab Report
+[Lab Report 1](https://amtjitro.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+# Lab Report 1
 ## *Remote Access*
 ### Installing VSCode
 > I download Visual Studio Code from [this](https://code.visualstudio.com/) website then followed the given instructions to properly install VSCode.
