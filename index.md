@@ -1,26 +1,20 @@
 # Week 2 Lab Report
 ## *Remote Access*
 ### Installing VSCode
-> insert steps
-![Image](Screen Shot 2022-01-13 at 1.48.45 PM.png)
+> I download Visual Studio Code from [this](https://code.visualstudio.com/) website then followed the given instructions to properly install VSCode.
+> The following screenshot is what VSCode looks like upon launching the VSCode application.
+![Image](Installing VSCode.png)
 ### Remotely Connecting
-> insert steps
-![Image](Screen Shot 2022-01-13 at 1.48.45 PM.png)
+> To remotely connect, I first grabbed my CSE15L account. In the terminal I then entered 'ssh cs15lwi22aso@ieng6.ucsd.edu'. I was then prompted to enter my password for the account (the password will not actively show up as you type it). Upon successfully doing so, the following message is printed out.
+![Image](Remotely Connecting.png)
 ### Trying Some Commands
 > insert steps
-![Image](Screen Shot 2022-01-13 at 1.48.45 PM.png)
-### Moving Files with ==scp==
+![Image](Command.png)
+### Moving Files with *scp*
 > insert steps
 ![Image](Screen Shot 2022-01-13 at 1.48.45 PM.png)
 ### Setting an SSH Key
-> insert steps
-![Image](Screen Shot 2022-01-13 at 1.48.45 PM.png)
+> To create an SSH Key, especially for efficiency purposes, I first typed in 'ssh-keygen' then followed the guidance in the terminal on creating a saving the key. I then logged onto my account on the server using 'ssh cs15lwi22aso@ieng6.ucsd.edu' then 'mkdir .ssh' to create a new directory. After that I used the 'scp' command to copy the public key to that new directory and the screenshot below shows me logging into the server without having to type in my password.
+![Image](SSH key.png)
 ### Optimizing Remote Running
 > insert steps
-![Image](Screen Shot 2022-01-13 at 1.48.45 PM.png)
-lab 2
-january 13th
-[LAB2](https://ucsd-cse15l-w22.github.io/week/week2/)
-![Image](Screen Shot 2022-01-13 at 1.48.45 PM.png)
-[Lab Report 1](page.html)
-[Lab Report 1](https://amtjitro.github.io/cse15l-lab-reports/page.html)
