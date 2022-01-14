@@ -3,19 +3,18 @@
 ### Installing VSCode
 > I download Visual Studio Code from [this](https://code.visualstudio.com/) website then followed the given instructions to properly install VSCode.
 > The following screenshot is what VSCode looks like upon launching the VSCode application.
-'supposedly code'
 ![Image](Installing VSCode.png)
 ### Remotely Connecting
-> To remotely connect, I first grabbed my CSE15L account. In the terminal I then entered 'ssh cs15lwi22aso@ieng6.ucsd.edu'. I was then prompted to enter my password for the account (the password will not actively show up as you type it). Upon successfully doing so, the following message is printed out.
+> To remotely connect, I first grabbed my CSE15L account. In the terminal I then entered `ssh cs15lwi22aso@ieng6.ucsd.edu`. I was then prompted to enter my password for the account (the password will not actively show up as you type it). Upon successfully doing so, the following message is printed out.
 ![Image](Remotely Connecting.png)
 ### Trying Some Commands
 > insert steps
 ![Image](Command.png)
 ### Moving Files with *scp*
 > insert steps
-![Image](Screen Shot 2022-01-13 at 1.48.45 PM.png)
+![Image](scp.png)
 ### Setting an SSH Key
-> To create an SSH Key, especially for efficiency purposes, I first typed in 'ssh-keygen' then followed the guidance in the terminal on creating a saving the key. I then logged onto my account on the server using 'ssh cs15lwi22aso@ieng6.ucsd.edu' then 'mkdir .ssh' to create a new directory. After that I used the 'scp' command to copy the public key to that new directory and the screenshot below shows me logging into the server without having to type in my password.
+> To create an SSH Key, especially for efficiency purposes, I first typed in 'ssh-keygen' then followed the guidance in the terminal on creating a saving the key. I then logged onto my account on the server using `ssh cs15lwi22aso@ieng6.ucsd.edu` then `mkdir .ssh` to create a new directory. After that I used the `scp` command to copy the public key to that new directory and the screenshot below shows me logging into the server without having to type in my password.
 ![Image](SSH key.png)
 ### Optimizing Remote Running
 > A trick to making running quicker is not only creating an SSH Key, but also learning how to run multiple commands at once. For example, after copying over the WhereAmI.java file to the server, I quickly ran the file by entering the commands after the ssh command. Adding commands in quotes allow me to quickly run WhereAmI.java on the remote server and exit.
