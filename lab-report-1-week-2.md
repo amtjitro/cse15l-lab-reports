@@ -21,4 +21,4 @@
 ![Image](Easier Running.png)
 This optimizes remote running as we are able to save keystrokes. For instance, instead of being able to remotely run using one line/one keystroke, we'd have to use multiple keystrokes like so:
 ![Image](keystrokes.png)
-This takes 4 commands/keystrokes as contrasted to 1 as we must log onto the remote server, run the file, and exit.
+This takes 4 commands/keystrokes as contrasted to 1 as we must log onto the remote server, run the file, and exit all with separate keystrokes.
