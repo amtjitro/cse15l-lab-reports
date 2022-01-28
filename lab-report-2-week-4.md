@@ -16,7 +16,7 @@ This is the the first code change for a failing test:
 The following screenshot is the symptom of the bug:
 ![Image](Lab 2 Screenshots/Bug 1.png)
 
-The **bug** is the fact that the program assumes that a link will always be provided and fails to consider/accomodate for this situation. Since the **failure-inducing input** is a file with no links, a symtpom will appear. In this case, the **symptom** is a faulty behavior as an `IndexOutOfBounds` exception is thrown when the correct output would be an empty list.
+The **bug** is brought about by the fact that the program assumes that there will always be a link in the file and fails to consider/accomodate for this situation. The specific line with the bug that causes the symptom is `toReturn.add(markdown.substring(openParen + 1, closeParen)` as `closeParen` will be -1 leading to an error. Since the **failure-inducing input** is a file with no links, a symtpom will appear. In this case, the **symptom** is a faulty behavior as an `IndexOutOfBounds` exception is thrown when the correct output would be an empty list.
 
 ---
 ### Bug/Fix #2
