@@ -13,6 +13,7 @@ This is the the first code change we made for a failing test:
 [This](https://github.com/amtjitro/markdown-parse/blob/main/test-file2.md) is a link to the test file that prompted this code change.
 
 > ***Symptom***
+The following screenshot is the result of using the above test file with the unchanged code:
 ![Image](Lab 2 Screenshots/Bug 1.png)
 ---
 ### Bug/Fix #2
@@ -27,7 +28,7 @@ This is the the second code change we made for a failing test:
 [This]() is a link to the test file that prompted this code change.
 
 > ***Symptom***
-![Image]()
+![Image](Lab 2 Screenshots/Bug 2.png)
 
 ---
 
@@ -40,8 +41,8 @@ This is the the third code change we made for a failing test:
 
 > ***Failure-Induing Input***
 
-[This]() is a link to the test file that prompted this code change.
+[This](https://github.com/amtjitro/markdown-parse/blob/main/test-file4.md?plain=1) is a link to the test file that prompted this code change.
 
 > ***Symptom***
-![Image]()
+![Image](Lab 2 Screenshots/Bug 3.png)
 ---
