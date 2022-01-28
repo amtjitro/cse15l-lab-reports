@@ -53,4 +53,6 @@ This is the the third code change we made for a failing test:
 The following screenshot is a result of running the test file above before changing the code:
 ![Image](Lab 2 Screenshots/Bug 3.png)
 
+The **bug** is brought about by the fact that the program does not consider the case in which an image is provided as the format for adding an image is very similar to that of a link. The difference between the formatting of a link and an image is the `!` when adding an image and the program fails to detect this as an image. The **failure-inducing input** is a markdown file that has an image. This results in a **symptom** as the output is incorerct. The name of the image file is given as the output when it should be an empty list as an image is not a link. 
+
 ---
