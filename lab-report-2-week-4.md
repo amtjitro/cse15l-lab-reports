@@ -59,6 +59,6 @@ The following screenshot is a symptom of the bug:
 
 ![Image](Bug3.png)
 
-The **bug** is brought about by the fact that the program does not consider the case in which an image is provided as the format for adding an image is very similar to that of a link. The difference between the formatting of a link and an image is the `!` and the program fails to detect this as an image. The **failure-inducing input** is a markdown file that has an image. This results in a **symptom** as the output is incorerct. The name of the image file is given as the output when it should be `[]`. In order to fix this bug, the change I made to the code was to only allo the program to proceed if `!` does not directly proceed `[`. This servers to differentiate between the syntax for a link and an image.
+The **bug** is brought about by the fact that the program does not consider the case in which an image is provided as the format for adding an image is very similar to that of a link. The difference between the formatting of a link and an image is the `!` and the program fails to detect this as an image. The **failure-inducing input** is a markdown file that has an image. This results in a **symptom** as the output is incorerct. The name of the image file is given as the output when it should be `[]`. In order to fix this bug, the change I made to the code was to only allow the program to proceed if `!` does not directly proceed `[`. This serves to make the program differentiate between the syntax for a link and an image.
 
 ---
