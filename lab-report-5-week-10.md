@@ -1,6 +1,7 @@
 # Lab Report 5
 
-I found these tests using `diff` on the results of running a bash for loop. Upon doing so, it printed out the differences and I could tell where the implementations differed.
+I found these tests using `diff` on the results of running a bash for loop. Upon doing so, it printed out the differences and I could tell where the implementations differed. The result revealed to me which line
+that the difference was on and I could search through the results to find the test that led to different outputs.
 
 >**Test 1**
 
